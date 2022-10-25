@@ -1,0 +1,58 @@
+import { StyleSheet } from 'react-native'
+
+export const styles = StyleSheet.create({
+  container: {
+    display: 'flex',
+    flexDirection: 'column',
+    textAlign: 'left',
+    width: 140,
+    height: 200,
+    borderRadius: 20,
+    backgroundColor: '#fff',
+    marginRight: 20,
+    overflow: 'visible',
+    padding: 15,
+    elevation: 4,
+    marginBottom: 30,
+    zIndex: 1,
+  },
+  itemImage: {
+    width: 110,
+    height: 110,
+    alignSelf: 'center',
+    marginBottom: 10,
+  },
+  itemName: {
+    fontSize: 16,
+    fontFamily: 'Inter_800ExtraBold',
+    color: '#414141',
+  },
+  lacContainer: {
+    alignSelf: 'flex-start',
+    marginTop: 4,
+    textAlign: 'left',
+    backgroundColor: '#D46863',
+    borderRadius: 10,
+    paddingHorizontal: 6,
+    paddingVertical: 1,
+    overflow: 'visible',
+    position: 'absolute',
+    right: 15,
+    bottom: 15,
+  },
+  qntContainer: {
+    alignSelf: 'flex-start',
+    marginTop: 4,
+    textAlign: 'left',
+    backgroundColor: '#5CA19C',
+    borderRadius: 10,
+    paddingHorizontal: 6,
+    paddingVertical: 1,
+    overflow: 'visible',
+  },
+  itemValue: {
+    fontFamily: 'Inter_800ExtraBold',
+    color: '#fff',
+    overflow: 'visible',
+  },
+})
