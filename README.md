@@ -1,6 +1,8 @@
 # 🥛Calctose
 Just select the items to calculate the amount of lactase needed, press clear to restart
 
+<span style="color:green">Item quantity</span>
+
 Green Values - Item quantity <br/>
 Red Values - Amount of lactose in the item
 
