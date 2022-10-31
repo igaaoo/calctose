@@ -1,4 +1,4 @@
-# calctose
+# 🥛Calctose
 Just select the items to calculate the amount of lactase needed, press clear to restart
 
 Green Values - Item quantity
